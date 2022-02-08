@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cuddly-waffle.iml" filepath="$PROJECT_DIR$/.idea/cuddly-waffle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MKTFY.iml" filepath="$PROJECT_DIR$/.idea/modules/MKTFY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MKTFY.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MKTFY.app.iml" />
     </modules>
   </component>
 </project>
