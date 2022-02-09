@@ -21,7 +21,8 @@ import com.toluleke.mktfy.models.remote.Response
 import kotlinx.coroutines.runBlocking
 import retrofit2.HttpException
 
-fun Uri.toBitmap(contentResolver: ContentResolver): Bitmap{
+
+fun Uri.toBitmap(contentResolver: ContentResolver): Bitmap {
     return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
         ImageDecoder.decodeBitmap(ImageDecoder.createSource(contentResolver, this))
     }else{
@@ -41,7 +42,7 @@ fun HttpException.getErrorResponse(): Response {
         Response("Something went wrong", emptyList())
     }
 }
-
+@Suppress("UNCHECKED_CAST")
 inline fun <reified VM: ViewModel?> viewModelFactory(
     crossinline getViewModel: () -> VM
 ): ViewModelProvider.Factory{
