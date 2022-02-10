@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "176845294616",
+    "project_id": "mktfy-fc7ad",
+    "storage_bucket": "mktfy-fc7ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176845294616:android:b845b7371c857d7e47476d",
+        "android_client_info": {
+          "package_name": "com.toluleke.mktfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176845294616-jr1v68fc2p60lko3vnela4gnpq3ggmtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9HLsB8Vmzja92QveBMMg0-Gk5B3EDRoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176845294616-jr1v68fc2p60lko3vnela4gnpq3ggmtd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

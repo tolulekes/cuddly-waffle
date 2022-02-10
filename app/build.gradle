@@ -104,14 +104,13 @@ dependencies {
     //DATA STORE
     implementation "androidx.datastore:datastore-preferences:1.0.0"
 
-    //MAPBOX
-    implementation 'com.mapbox.maps:android:10.1.0'
-    implementation 'com.google.code.gson:gson:2.8.8'
-
     //TIMBER
     implementation 'com.jakewharton.timber:timber:5.0.1'
 
     //PAGING
     implementation "androidx.paging:paging-compose:1.0.0-alpha14"
+
+    //SPLASH SCREEN
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
 
 }
